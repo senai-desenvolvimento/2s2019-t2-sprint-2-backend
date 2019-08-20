@@ -15,43 +15,48 @@ namespace Senai.Sstop.WebApi.Controllers
     public class EstilosController : ControllerBase
     {
 
-        List<EstiloDomain> estilos = new List<EstiloDomain>
-        {
-            new EstiloDomain { IdEstilo = 1, Nome = "Rock" },
-            new EstiloDomain { IdEstilo = 2, Nome = "Pop" },
-            new EstiloDomain { IdEstilo = 3, Nome = "Folk" }
-        };
-
         EstiloRepository EstiloRepository = new EstiloRepository();
 
         [HttpGet]
         public IEnumerable<EstiloDomain> ListarTodos()
         {
-            //return estilos;
             return EstiloRepository.Listar();
         }
 
+        // o controller devera receber o id que eu quero buscar
+        // GET /api/estilos/3
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
-            EstiloDomain Estilo = estilos.Find(x => x.IdEstilo == id);
-            if (Estilo == null)
-            {
+            EstiloDomain estiloDomain = EstiloRepository.BuscarPorId(id);
+            if (estiloDomain == null)
                 return NotFound();
-            }
-            return Ok(Estilo);
+            return Ok(estiloDomain);
         }
 
+        // cadastrar um novo
         [HttpPost]
-        public IActionResult Cadastrar(EstiloDomain estiloDomain)
+        public IActionResult Cadastrar(EstiloDomain EstiloDomain)
         {
-            estilos.Add(
-                new EstiloDomain {
-                    IdEstilo = estilos.Count + 1,
-                    Nome = estiloDomain.Nome
-                }
-            );
-            return Ok(estilos);
+            EstiloRepository.Cadastrar(EstiloDomain);
+            return Ok();
         }
+
+        // DELETE /api/estilos/1009
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            EstiloRepository.Deletar(id);
+            return Ok();
+        }
+
+        // atualizar - update
+        [HttpPut]
+        public IActionResult Atualizar(EstiloDomain estiloDomain)
+        {
+            EstiloRepository.Atualizar(estiloDomain);
+            return Ok();
+        }
+
     }
 }
