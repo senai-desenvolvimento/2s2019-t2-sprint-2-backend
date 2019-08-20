@@ -1,0 +1,65 @@
+GET /api/estilos -> lista com todos os estilos
+
+controller -> repository (bd) -> model (domain)/entidades
+
+GET /api/estilos/1 -> um estilo aonde o id seja igual a 1 // caso eu não tenha, 404 notfound
+
+GET /api/estilos/3
+GET /api/estilos/30
+GET /api/estilos/?????????
+
+GET /api/estilos/20
+
+SELECT * FROM EstilosMusicais WHERE IdEstilo = 20
+
+
+POST /api/estilos
+
+
+
+
+
+
+
+
+
+
+GET	/api/estilos
+Listar
+
+
+
+
+
+
+{
+	"nome" : "Rockzin"
+}
+
+INSERT INTO EstilosMusicais (Nome) VALUES ('???????????');
+
+INSERT INTO EstilosMusicais (Nome) VALUES ('Rockzin');
+
+INSERT INTO EstilosMusicais (Nome) 
+VALUES ('Joana D'Arc')
+
+
+
+
+
+{
+	"idEstiloMusical" : 1008
+	"nome" : "RockZin 1008"
+}
+
+
+
+GET    /api/estilos
+GET    /api/estilos/1
+POST   /api/estilos
+PUT    /api/estilos
+DELETE /api/estilos/1
+
+
+
+

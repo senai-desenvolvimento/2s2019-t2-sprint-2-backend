@@ -22,6 +22,7 @@ namespace Senai.Sstop.WebApi.Controllers
 
         EstiloRepository EstiloRepository = new EstiloRepository();
 
+        // GET /api/estilos
         [HttpGet]
         public IEnumerable<EstiloDomain> Listar()
         {
@@ -29,10 +30,15 @@ namespace Senai.Sstop.WebApi.Controllers
             return EstiloRepository.Listar();
         }
 
+        // GET /api/estilos/1
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
-            EstiloDomain Estilo = estilos.Find(x => x.IdEstilo == id);
+            // lista fixa
+            // EstiloDomain Estilo = estilos.Find(x => x.IdEstilo == id);
+
+            // do banco de dados
+            EstiloDomain Estilo = EstiloRepository.BuscarPorId(id);
             if (Estilo == null)
             {
                 return NotFound();
@@ -40,15 +46,33 @@ namespace Senai.Sstop.WebApi.Controllers
             return Ok(Estilo);
         }
 
+        // POST /api/estilos
         [HttpPost]
         public IActionResult Cadastrar(EstiloDomain estiloDomain)
         {
-            estilos.Add(new EstiloDomain
-            {
-                IdEstilo = estilos.Count + 1,
-                Nome = estiloDomain.Nome }
-            );
-            return Ok(estilos);
+            // do banco de dados
+            EstiloRepository.Cadastrar(estiloDomain);
+            return Ok();
+        }
+
+        // ATUALIZAR
+        // PUT /api/estilos
+        // { "idEstiloMusical" : "", "nome" : ""}
+        // PUT /api/estilos/1 {"nome" : "Estilo A"}
+        [HttpPut]
+        public IActionResult Atualizar(EstiloDomain estiloDomain)
+        {
+            EstiloRepository.Alterar(estiloDomain);
+            return Ok();
+        }
+
+        // DELETAR
+        // DELETE /api/estilos/1009
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            EstiloRepository.Deletar(id);
+            return Ok();
         }
 
         //[HttpGet]
@@ -56,6 +80,7 @@ namespace Senai.Sstop.WebApi.Controllers
         //{
         //    return "Requisição Recebida";
         //}
+
 
     }
 }
