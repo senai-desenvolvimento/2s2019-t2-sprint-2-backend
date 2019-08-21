@@ -32,3 +32,8 @@ Criar um endpoint chamado /api/funcionarios/buscar/{nome} passando como parâmetr
 Criar um endpoint chamado /api/funcionarios/nomescompletos que na saída do json, o nome e o sobrenome venham na mesma chave. Ex.: { "nomeCompleto" : "Catarina Strada" };
 Fazer com que o nome do Funcionário do backend seja obrigatório e mostre uma mensagem de erro, caso o usuário não envie.
 
+Criar APENAS UM endpoint para que seja listado os nomes dos funcionários em ordem crescente ou decrescente. Da seguinte maneira:
+GET /api/funcionarios/ordenacao/{ordem}
+GET /api/funcionarios/ordenacao/asc ou GET /api/funcionarios/ordenacao/desc
+Caso o usuário informe uma ordenação que não exista, retornar uma mensagem de erro e devolver o erro 400 BadRequest).
+
