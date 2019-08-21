@@ -29,6 +29,6 @@ Você deverá criar um repositório (2s2019-t2-sprint-2-backend-peoples ou 2s2019-t
 Desafios Extras:
 Incluir data de nascimento para os funcionários;
 Criar um endpoint chamado /api/funcionarios/buscar/{nome} passando como parâmetro o nome do funcionário e realizando a determinada busca no banco;
-Criar um endpoint chamado /api/funcionarios/nomescompletos que na saída do json, o nome e o sobrenome venham na mesma chave. Ex.: { "nomeCompleto" : "Catarina Strada" }.  
-
+Criar um endpoint chamado /api/funcionarios/nomescompletos que na saída do json, o nome e o sobrenome venham na mesma chave. Ex.: { "nomeCompleto" : "Catarina Strada" };
+Fazer com que o nome do Funcionário do backend seja obrigatório e mostre uma mensagem de erro, caso o usuário não envie.
 
