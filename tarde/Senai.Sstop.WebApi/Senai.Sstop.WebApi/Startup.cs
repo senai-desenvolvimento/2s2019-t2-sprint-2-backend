@@ -14,6 +14,14 @@ namespace Senai.Sstop.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
+
+            services.AddSwaggerGen(c =>
+                   c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+                   {
+                        Title = "SStop API", Version = "v1"
+                   })
+            );
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());
@@ -27,6 +35,14 @@ namespace Senai.Sstop.WebApi
                 app.UseDeveloperExceptionPage();
             }
             app.UseCors("CorsPolicy");
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c => 
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SStop API V1");
+            });
+
             app.UseMvc();
         }
     }
