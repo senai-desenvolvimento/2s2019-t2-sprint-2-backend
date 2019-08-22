@@ -1,0 +1,18 @@
+Criar um controller para exibir todos os gêneros.
+GET 	/api/generos
+GET 	/api/generos/{id}
+PUT 	/api/generos/{id}
+DELETE 	/api/generos/{id}
+POST 	/api/generos
+
+Criar um controller para exibir todos os filmes e seus determinados gêneros.
+GET 	/api/filmes
+GET 	/api/filmes/{id}
+POST	/api/filmes
+
+Incluir o swagger.
+
+Desafios:
+
+Dado um determinado id do gêneros, mostrar os filmes vinculados.
+GET 	/api/generos/{id}/filmes
