@@ -14,12 +14,7 @@ namespace Senai.Sstop.WebApi.Controllers
     [ApiController]
     public class EstilosController : ControllerBase
     {
-        List<EstiloDomain> estilos = new List<EstiloDomain>()
-        {
-            new EstiloDomain { IdEstilo = 1, Nome = "Rock" }
-            ,new EstiloDomain { IdEstilo = 2, Nome = "Pop" }
-        };
-
+        
         EstiloRepository EstiloRepository = new EstiloRepository();
 
         // GET /api/estilos
@@ -48,6 +43,7 @@ namespace Senai.Sstop.WebApi.Controllers
 
         // POST /api/estilos
         [HttpPost]
+        // public IActionResult Cadastrar([FromBody] EstiloDomain estiloDomain)
         public IActionResult Cadastrar(EstiloDomain estiloDomain)
         {
             // do banco de dados
@@ -59,6 +55,11 @@ namespace Senai.Sstop.WebApi.Controllers
         // PUT /api/estilos
         // { "idEstiloMusical" : "", "nome" : ""}
         // PUT /api/estilos/1 {"nome" : "Estilo A"}
+        /// <summary>
+        /// Atualizar um novo estilo.
+        /// </summary>
+        /// <param name="estiloDomain">EstiloDomain</param>
+        /// <returns></returns>
         [HttpPut]
         public IActionResult Atualizar(EstiloDomain estiloDomain)
         {
@@ -74,13 +75,6 @@ namespace Senai.Sstop.WebApi.Controllers
             EstiloRepository.Deletar(id);
             return Ok();
         }
-
-        //[HttpGet]
-        //public string Get()
-        //{
-        //    return "Requisição Recebida";
-        //}
-
 
     }
 }
