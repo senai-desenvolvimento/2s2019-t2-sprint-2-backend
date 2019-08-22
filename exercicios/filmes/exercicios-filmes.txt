@@ -10,9 +10,17 @@ GET 	/api/filmes
 GET 	/api/filmes/{id}
 POST	/api/filmes
 
-Incluir o swagger.
+Documentação: Incluir o swagger.
 
 Desafios:
+- Fazer com que o nome do gênero seja obrigatório.
 
-Dado um determinado id do gêneros, mostrar os filmes vinculados.
+- Dado um determinado id do gênero, mostrar os filmes vinculados.
 GET 	/api/generos/{id}/filmes
+
+- Dado um determinado gênero, trazer a sua lista de registros encontrados no banco.
+GET	/api/generos/{nome}/buscar
+
+- Dado uma determinada palavra do filme, trazer a lista de registros encontrados.
+GET	/api/filmes/{nome}/buscar
+Por exemplo: 'Exterminador do Futuro I', 'Exterminador II', 'Exterminador O Retorno'. Ao buscar: 'exterminador', trazer a lista contendo os 3 (três) registros.
