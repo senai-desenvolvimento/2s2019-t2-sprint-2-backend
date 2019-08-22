@@ -50,5 +50,23 @@ namespace Senai.Sstop.WebApi.Repositories
             }
             return artistas;
         }
+
+        public void Cadastrar(ArtistaDomain artista)
+        {
+            // declarar a conexao
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                string Query = "INSERT INTO Artistas (Nome, IdEstiloMusical) VALUES (@Nome, @IdEstiloMusical);";
+
+                SqlCommand cmd = new SqlCommand(Query, con);
+                cmd.Parameters.AddWithValue("@Nome", artista.Nome);
+                // cmd.Parameters.AddWithValue("@IdEstiloMusical", artista.Estilo.IdEstilo);
+                cmd.Parameters.AddWithValue("@IdEstiloMusical", artista.EstiloId);
+                // abre a conexao
+                con.Open();
+                // qtd de registros
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }
