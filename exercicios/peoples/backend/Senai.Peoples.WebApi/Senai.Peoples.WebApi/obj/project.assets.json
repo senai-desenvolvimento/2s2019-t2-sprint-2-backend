@@ -7219,7 +7219,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.9": {
-      "sha512": "elJCdByo45aWfolyQR7baWvzecS0ES/uK4umD3Uj/U7ro1PxLBBXkZqlI/eIi5iW9nptqKqHYZq8EpT1EpYjXA==",
+      "sha512": "fnArZMBAlGUxuVIffEYoi+IsUR+rTQ/Mz+pIHyOnf5AHBJ5Jp1LvWQmyoWcs5k+Q0xXOhTNiJTvvwdw84H5rZA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration/2.1.9",
       "files": [
@@ -7232,7 +7232,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.9": {
-      "sha512": "kRb569TcU9yyjxYBRFRjdiGz76IbwKjGZawBe4sSXwL+QAPsLjvk24vIX3ADTvbiseDF8lUmoJIn7aphhu66YQ==",
+      "sha512": "rLQcbV5lbWi1pSTnPk5FAKW9AVi7VP3WVXj5vrzI8M1PlnAXn2LipA3biumlDcDOwCHrLth61I5JnRiqgFi+nA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.9",
       "files": [
@@ -7245,7 +7245,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.9": {
-      "sha512": "RxrislCEjYQOXstEV182uFAsdWvTYVwtyxa7CPYWyCHPkyr4VihLJ+Gj3FjO5Ng9hJ09Eld91q3ltCNg8LDYdg==",
+      "sha512": "zL3c+GzGhyN9ycpL/uBEcYe+mvNGyVFIOXwdzROVgOLt6j6ceFvSL38Vdq/ISUz6OFdkBPdIo71Qct8M9Z1QNg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.core/2.1.9",
       "files": [
@@ -7258,7 +7258,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.9": {
-      "sha512": "rjYFcVp+7YnWSnw7+ppyTrO4lraCZe38Aa0dEuIYY9yyFe7sS6QdaP6N7oHxyIF0vmGwTLFozq9WTA9+lFlaNg==",
+      "sha512": "hoMP2Sr2AZF00niWLXXjHM8275c7e11f0P7PlRS3j/ETG6wizByADxRF2Q2Yb/PUhg/hXRwfj4u3vS/sxcqJJw==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.design/2.1.9",
       "files": [
@@ -7281,7 +7281,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.9": {
-      "sha512": "PcTJk9b2sNEiq4v+tA6L0gU3S1bQmwdmrxnaVeLFVOkF67R6euJ7yxjQldXY58DL4EE3Urhu0qkmydJfSUtsmg==",
+      "sha512": "P9qpgTmOHb7odcAo/EqbaofUlaM8JcYu9d5wewX5ZbJMn5GcbnjDQhg5LF7DoKkcpLBCUiXG04F7lqBcsZqtUA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.9",
       "files": [
@@ -7295,7 +7295,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.9": {
-      "sha512": "3DfUVQHhuunNfKZfNa6LWTQl0iDEZpSNZ//zDBUqNY6yLZdCBxh/yCtmlOFSTp0aHvV6EKaih5rUsim2u/TCCA==",
+      "sha512": "Vuw0yVKRfj/3/jcFdvJEULf+fu2VoeA/loEyX5wfj2EzFc+lpEQ+6vIvvKCc6gtjh/O3MsZZxtFGFcWcDrNK/g==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.9",
       "files": [
@@ -7308,7 +7308,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.9": {
-      "sha512": "D515l+lXVv4rmtjGvlxsoGzsANkF0ctQh5Qc2LrlbeJeXaMyufQQJp7foZyDpV4PJ7JfDxq0/3n1hg4k2QJTGA==",
+      "sha512": "HGtpCMW7GEPygFaNjzE/zPt5zP9e7u8galmYQoR3taGL+2JRFDx9P5xd2jsRxlQUdNB0GVf/0OHxjeLJJYWJBw==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.9",
       "files": [
@@ -7321,7 +7321,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.9": {
-      "sha512": "ZXSl0bvFywsQYNAo1qreqDxETyBqMdIzRfP2RCxoJR2pHbDi/8Rid1MlcuiMCTQmJi+wANI5UgXHAC76hrZzFQ==",
+      "sha512": "bmqEQaGpXME9ErK6N+Ew3g7hia2t5tJeARZYrD6T21TT/2+OIwDrVuI3cu9RpeoLWXJa76eqcyC7tC+SYGfIZA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.9",
       "files": [
@@ -7785,7 +7785,7 @@
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.5.0": {
-      "sha512": "X4hp5h5M2plTWZnUd79d0x4actSMj9L3Hv6e1Lu+oGi35XSaXg21ha4Rqmt2KrIesfUwMfpET8QhMkS1eiWqRQ==",
+      "sha512": "AJfX7owAAkMjWQYhoml5IBfXh8UyYPjktn8pK0BFGAdKgBS7HqMz1fw5vdzfZUWfhtTPDGCjgNttt46ZyEmSjg==",
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
       "files": [
@@ -8527,7 +8527,7 @@
       ]
     },
     "System.Data.SqlClient/4.6.1": {
-      "sha512": "u980l3uFvJ3N/Hin95Po9wn3zzKMvogu/ZnrOZWM/lsMjEatFPXWbxN+coTMeEFUewsopy5xOP8rZD5oXcAZkA==",
+      "sha512": "7MTJhBFt4/tSJ2VRpG+TQNPcDdbCnWuoYzbe0kD5O3mQ7aZ2Q+Q3D9Y5Y3/aper5Gp3Lrs+8edk9clvxyPYXPw==",
       "type": "package",
       "path": "system.data.sqlclient/4.6.1",
       "files": [
@@ -12538,27 +12538,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\admin.local\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_github_s\\senai-dev-2s2019\\sprint-2-backend\\exercicios\\peoples\\backend\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+      "projectUniqueName": "C:\\_github\\senai-dev-2s2019\\sprint-2-backend\\exercicios\\peoples\\backend\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
       "projectName": "Senai.Peoples.WebApi",
-      "projectPath": "C:\\_github_s\\senai-dev-2s2019\\sprint-2-backend\\exercicios\\peoples\\backend\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\_github_s\\senai-dev-2s2019\\sprint-2-backend\\exercicios\\peoples\\backend\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\obj\\",
+      "projectPath": "C:\\_github\\senai-dev-2s2019\\sprint-2-backend\\exercicios\\peoples\\backend\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+      "packagesPath": "C:\\Users\\admin.local\\.nuget\\packages\\",
+      "outputPath": "C:\\_github\\senai-dev-2s2019\\sprint-2-backend\\exercicios\\peoples\\backend\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\admin.local\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

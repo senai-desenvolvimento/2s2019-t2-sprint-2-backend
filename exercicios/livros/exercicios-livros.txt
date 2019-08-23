@@ -5,6 +5,7 @@ A fim de melhorar a integração entre os sistemas, ela solicitou que você criasse
 
 -- autores
 GET /api/autores
+POST /api/autores
 
 --generos
 GET /api/generos
