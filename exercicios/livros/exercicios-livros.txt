@@ -1,0 +1,44 @@
+Olá, a empresa BookStore solicitou que você criasse a API para apresentar os dados de todos os livros. Os livros possuem descrição, o gênero e o autor.
+Como a empresa está melhor estruturada, ela disponibilizou o script do banco de dados.
+
+A fim de melhorar a integração entre os sistemas, ela solicitou que você criasse os seguintes endpoints:
+
+-- autores
+GET /api/autores
+
+--generos
+GET /api/generos
+POST /api/generos
+
+-- livros
+GET /api/livros
+GET /api/livros/{id}
+POST /api/livros
+PUT /api/livros/{id}
+DELETE /api/livros/{id}
+
+Adicionar o Swagger ao Projeto.
+Salvar toda a coleção no postman.
+
+Desafios Extras:
+
+Apresentar a lista de livros de um determinado autor.
+GET /api/autores/{id}/livros
+
+Buscar todos os livros de um determinado gênero, mas pesquisando por [nome] do gênero.
+GET /api/generos/buscar/{nome}/livros
+
+Listar somente os autores que estão ativos.
+GET /api/autores/ativos
+
+Apresentar a lista de livros de um determinado autor que esteja ativo no sistema.
+GET /api/autores/{id}/ativos/livros
+
+Apresentar a lista de autores cujo ano da data de nascimento seja superior a 1990.
+GET /api/autores/{ano}/nascimento
+
+
+Nome do Projeto: Senai.BookStore.WebApi
+Nome do Banco: M_BookStore/T_BookStore
+Scripts: Foi entregue pelo cliente (bookstore.sql).
+GitHub: 2s2019-sprint-2-backend-bookstore
