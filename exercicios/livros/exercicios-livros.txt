@@ -35,7 +35,7 @@ GET /api/autores/ativos
 Apresentar a lista de livros de um determinado autor que esteja ativo no sistema.
 GET /api/autores/{id}/ativos/livros
 
-Apresentar a lista de autores cujo ano da data de nascimento seja superior a 1990.
+Apresentar a lista de autores cujo ano da data de nascimento seja superior a data de entrada do usuário.
 GET /api/autores/{ano}/nascimento
 
 
