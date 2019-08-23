@@ -9,3 +9,8 @@ CREATE TABLE Funcionarios
 	,Sobrenome		VARCHAR(255)
 );
 GO
+
+-- apos a alteracao
+
+ALTER TABLE Funcionarios
+ADD DataNascimento DATE

@@ -77,5 +77,43 @@ namespace Senai.Peoples.WebApi.Controllers
             funcionarioRepository.Deletar(id);
             return Ok();
         }
+
+        /// <summary>
+        /// Buscar uma determinada lista de funcionarios a partir do nome a ser pesquisado.
+        /// </summary>
+        /// <param name="nome">Nome a ser pesquisado.</param>
+        /// <returns>Lista de Funcionários</returns>
+        [HttpGet("buscar/{nome}")]
+        public IActionResult BuscarPorNome(string nome)
+        {
+            try
+            {
+                List<FuncionarioDomain> funcionarios = funcionarioRepository.BuscarPorNome(nome);
+                // caso nenhum funcionario seja encontrado com aquele nome, retorno sem conteudo
+                if (funcionarios.Count == 0)
+                    return NoContent();
+                // caso contrario, apresento a lista de funcionarios com determinado nome
+                return Ok(funcionarios);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { mensagem = "Ocorreu um erro." + ex.Message });
+            }
+        }
+
+        /// <summary>
+        /// Ordenar os funcionários por nome.
+        /// </summary>
+        /// <param name="ordem">Ordem esperada. ASC ou DESC.</param>
+        /// <returns>Retorna a lista de funcionários de maneira ordenada.</returns>
+        [HttpGet("ordenacao/{ordem}")]
+        public IActionResult ListarOrdenacao(string ordem)
+        {
+            if (ordem.ToUpper() == "ASC" || ordem.ToUpper() == "DESC")
+                return Ok(funcionarioRepository.ListarPorOrdem(ordem));
+            else
+                return BadRequest(new { mensagem = "Ocorreu um erro. Identifique se é ASC ou DESC." });
+
+        }
     }
 }

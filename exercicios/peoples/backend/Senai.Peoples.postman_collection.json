@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2de77a30-0ea0-431f-9939-ee2e05d24f8c",
+		"_postman_id": "2597291a-db1a-4d64-a84f-25896de7eb92",
 		"name": "Senai.Peoples",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -61,7 +61,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"nome\" : \"Helena\"\n\t,\"sobrenome\" : \"Strada\" \n}"
+							"raw": "{\n\t\"nome\" : \"Helena\"\n\t,\"sobrenome\" : \"Road\"\n\t,\"dataNascimento\": \"1993-03-18\"\n}"
 						},
 						"url": {
 							"raw": "localhost:5000/api/funcionarios",
@@ -91,10 +91,10 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"nome\": \"Helena\",\n    \"sobrenome\": \"Road\"\n}"
+							"raw": "{\n    \"nome\": \"Helena\",\n    \"sobrenome\": \"Road\",\n    \"dataNascimento\": \"1993-03-18\"\n}"
 						},
 						"url": {
-							"raw": "localhost:5000/api/funcionarios/3",
+							"raw": "localhost:5000/api/funcionarios/1002",
 							"host": [
 								"localhost"
 							],
@@ -102,7 +102,7 @@
 							"path": [
 								"api",
 								"funcionarios",
-								"3"
+								"1002"
 							]
 						}
 					},
@@ -123,6 +123,48 @@
 								"api",
 								"funcionarios",
 								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funcionarios.BuscarPorNome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/funcionarios/buscar/Erik",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios",
+								"buscar",
+								"Erik"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funcionarios.ListarNomesOrdenados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/funcionarios/ordenacao/asc",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios",
+								"ordenacao",
+								"asc"
 							]
 						}
 					},
