@@ -1,0 +1,33 @@
+Microsoft.EntityFrameworkCore.SqlServer 2.1.11
+Microsoft.EntityFrameworkCore.SqlServer.Design 1.1.6
+Microsoft.EntityFrameworkCore.Tools 2.1.11
+
+Model/Domain -> Repository -> Controller
+		Acesso BD
+		SqlClient	Autenticação
+		EF Core		Autorização
+
+Scaffold-DbContext "Data Source=.\SqlExpress; Initial Catalog=M_Gufos;User Id=sa;Pwd=132" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context GufosContext
+
+Scaffold-DbContext "Data Source=localhost; Initial Catalog=M_Gufos;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context GufosContext
+
+
+
+BD -> BackEnd (API)
+
+Estrutura do BackEnd
+
+Domain 	-> Repository 		-> Controller (API)
+	-> SqlClient		-> REST, endpoints,
+				   verbos, status 				   code, json
+	-> EF Core (ORM)
+
+SStop - SQLClient
+Optus - EFCore
+
+
+
+
+
+
+
