@@ -1,0 +1,22 @@
+Criar um projeto chamado Senai.Optus.WebApi.
+
+EF Core.
+Swagger.
+Postman.
+
+Estilos - GET, POST, PUT, DELETE
+Artistas - GET, POST
+
+Desafios Extras:
+
+Criar um endpoint para realizar a busca de artistas através do id do estilo.
+GET /api/estilos/{id}/artistas
+
+Criar um endpoint para realizar a busca de artistas através do nome do estilo.
+GET /api/estilos/buscar/{nome}/artistas
+
+Criar um endpoint para listar a quantidade de estilos disponíveis.
+GET /api/estilos/quantidade
+
+Criar um endpoint para listar a quantidade de estilos e a quantidade de artistas disponíveis.
+GET /api/admin/dashboard
