@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "5464012c-3fe9-4084-90c7-c15a69c3d767",
+		"name": "Senai.Gufos.Manha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Categorias",
+			"item": [
+				{
+					"name": "Categorias.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/categorias",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categorias.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"Ping-Pong\"\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/categorias",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categorias.BuscarPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/categorias/1",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categorias",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categorias.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/categorias/1002",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categorias",
+								"1002"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categorias.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"idCategoria\": 3,\r\n        \"nome\": \"FUTEBOL\"\r\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/categorias",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categorias"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Eventos",
+			"item": [
+				{
+					"name": "Eventos.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/eventos",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"eventos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eventos.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"titulo\": \"Meetup - API\",\r\n    \"descricao\": \"O [] é top.\",\r\n    \"dataEvento\": \"2019-08-07T18:30:00\",\r\n    \"localizacao\": \"Alameda Barão de Limeira, 539\",\r\n    \"ativo\": true,\r\n    \"idCategoria\": 2\r\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/eventos",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"eventos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

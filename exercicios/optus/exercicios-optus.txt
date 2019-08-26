@@ -1,0 +1,8 @@
+Criar um projeto chamado Senai.Optus.WebApi.
+
+EF Core.
+Swagger.
+Postman.
+
+Estilos - GET, POST, PUT, DELETE
+Artistas - GET, POST
