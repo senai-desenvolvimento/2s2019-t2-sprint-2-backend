@@ -1,0 +1,34 @@
+Microsoft.EntityFrameworkCore.SqlServer 2.1.11
+Microsoft.EntityFrameworkCore.SqlServer.Design 1.1.6
+Microsoft.EntityFrameworkCore.Tools 2.1.11
+
+Exibir -> Outras Janelas -> Console do Gerenciador de Pacotes
+
+DB -> BackEnd
+Entidades -> Domínios/Modelos
+DatabaseFirst
+
+
+BackEnd -> Gerar as tabelas do Banco
+Domínios -> Entidades
+CodeFirst
+
+
+Scaffold-DbContext "Data Source=.\SqlExpress;Initial Catalog=T_Gufos;User Id=sa;Pwd=132;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context GufosContext
+
+Scaffold-DbContext "Data Source=localhost;Initial Catalog=T_Gufos;Integrated Security=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context GufosContext
+
+configurar
+services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
+
+colocar em uso
+app.UseMvc();
+
+configuração startup
+services.AddMvc()
+                .AddJsonOptions(options => 
+                {
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                    options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+                })
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
