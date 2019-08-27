@@ -1,0 +1,7 @@
+Além do conteúdo proposto no item exercicios-optus.txt.
+Incluir a autenticação na aplicação a fim de que somente ADMINISTRADORES possam cadastrar, atualizar e deletar estilos musicais.
+Porém, qualquer usuário, contanto que esteja autenticado, pode realizar a listagem de estilos ou busca por id.
+
+Incluir a autenticação na aplicação a fim de que para cadastrar artistas, qualquer usuário autenticado pode realizar a chamada.
+
+A visibilidade para listar os artistas é pública. Não precisa de nenhuma restrição.
