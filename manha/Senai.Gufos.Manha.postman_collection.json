@@ -11,8 +11,25 @@
 				{
 					"name": "Categorias.Listar",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NjkwODMyNCwiaXNzIjoiR3Vmb3MuV2ViQXBpIiwiYXVkIjoiR3Vmb3MuV2ViQXBpIn0.-NgYD7DvpKXQ9RWqb76WJGsoFPzSdPKlABHdm9ZhQ7M",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxMDAyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2OTQ5ODUwNiwiaXNzIjoiR3Vmb3MuV2ViQXBpIiwiYXVkIjoiR3Vmb3MuV2ViQXBpIn0.v55HyCp2OyUPwzsH6Je1XRCfqbDCLVVVVujxk68r_Sw",
+								"type": "text",
+								"disabled": true
+							}
+						],
 						"url": {
 							"raw": "localhost:5000/api/categorias",
 							"host": [
@@ -22,6 +39,13 @@
 							"path": [
 								"api",
 								"categorias"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
 							]
 						}
 					},
@@ -60,6 +84,16 @@
 				{
 					"name": "Categorias.BuscarPorId",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxMDAyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2OTQ5OTU1MSwiaXNzIjoiR3Vmb3MuV2ViQXBpIiwiYXVkIjoiR3Vmb3MuV2ViQXBpIn0.yMO1t33IPlhOEax60eGxCIZc3pbC1nAQ5x-EVHG1TW8",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -176,6 +210,41 @@
 							"path": [
 								"api",
 								"eventos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Usuarios.Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\" : \"admin@email.com\"\n\t,\"senha\" : \"123456\"\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/login",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
 							]
 						}
 					},
