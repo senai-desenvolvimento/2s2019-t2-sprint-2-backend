@@ -9,3 +9,4 @@ Autenticação/Autorização
 
 System.IdentityModel.Tokens.Jwt - 5.5.0 - criar e validar o jwt
 Microsoft.AspNetCore.Authentication.JwtBearer - 2.1.1 - integrar a parte de autenticação
+
