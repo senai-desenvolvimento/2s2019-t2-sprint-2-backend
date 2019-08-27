@@ -34,6 +34,7 @@ namespace Senai.Gufos.WebApi.Controllers
                {
                     // chave customizada
                     new Claim("chave", "0123456789"),
+                    new Claim("mari", "AgoraFoi"),
                     // email
                     new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email),
                     // id
