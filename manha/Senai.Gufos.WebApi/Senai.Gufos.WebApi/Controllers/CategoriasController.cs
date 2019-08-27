@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Gufos.WebApi.Domains;
@@ -21,6 +22,7 @@ namespace Senai.Gufos.WebApi.Controllers
         /// Listar todas as categorias
         /// </summary>
         /// <returns>200 com a lista de categorias</returns>
+        [Authorize]
         [HttpGet]
         public IActionResult ListarTodos()
         {
@@ -50,6 +52,7 @@ namespace Senai.Gufos.WebApi.Controllers
         /// </summary>
         /// <param name="id">int id</param>
         /// <returns>Categoria Encontrada.</returns>
+        [Authorize(Roles = "Administrador")]
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {

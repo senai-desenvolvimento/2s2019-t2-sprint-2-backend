@@ -1,0 +1,25 @@
+Email/Senha
+Eu procure o usuário enviado e valide essa informação.
+--
+BD
+--
+BuscarPorEmailESenha
+
+select * from usuarios where email = @email and senha = @senha
+
+Usuarios UsuarioBuscado = ctx.Usuarios.FirstOrDefault(x => x.Email == login.Email && x.Senha == login.Senha);
+
+admin@email.com 123456
+
+AuthController - LoginController - TokenController
+
+UsuariosController - cadastrar um usuário, buscar...
+
+System.IdentityModel.Tokens.Jwt (5.5.0) - criar e validar o jwt
+Microsoft.AspNetCore.Authentication.JwtBearer (2.1.1) - integrar a parte de autenticacao
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxMDAyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2OTQ5ODUwNiwiaXNzIjoiR3Vmb3MuV2ViQXBpIiwiYXVkIjoiR3Vmb3MuV2ViQXBpIn0.v55HyCp2OyUPwzsH6Je1XRCfqbDCLVVVVujxk68r_Sw
+
+Swashbuckle.AspNetCore
+
