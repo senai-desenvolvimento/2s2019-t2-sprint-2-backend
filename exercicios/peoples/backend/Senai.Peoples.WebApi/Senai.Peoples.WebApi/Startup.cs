@@ -25,6 +25,8 @@ namespace Senai.Peoples.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorsPolicy");
+
             app.UseMvc();
 
         }

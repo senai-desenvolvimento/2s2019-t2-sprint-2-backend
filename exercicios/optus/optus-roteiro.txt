@@ -1,0 +1,29 @@
+Criar um projeto chamado Senai.Optus.WebApi.
+
+Adicionar as dependências que seguem:
+
+Microsoft.EntityFrameworkCore.SqlServer 2.1.11
+Microsoft.EntityFrameworkCore.SqlServer.Design 1.1.6
+Microsoft.EntityFrameworkCore.Tools 2.1.11
+
+Realizar o Scaffold:
+
+Scaffold-DbContext "Data Source=.\SqlExpress; Initial Catalog=Optus;User Id=sa;Pwd=132" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context OptusContext
+
+Scaffold-DbContext "Data Source=localhost; Initial Catalog=Optus;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context OptusContext
+
+Adicionar o Swagger ao Projeto.
+Swashbuckle.AspNetCore 4.0.1
+
+Configurar o Startup.cs.
+
+Criar os repositórios.
+Criar os controllers.
+
+Adicionar as dependências necessárias para o token.
+System.IdentityModel.Tokens.Jwt (5.5.0) - criar e validar o jwt
+Microsoft.AspNetCore.Authentication.JwtBearer (2.1.1) - integrar a parte de autenticacao
+
+Configurar o Startup.cs.
+
+

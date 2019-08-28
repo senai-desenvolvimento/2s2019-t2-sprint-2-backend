@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Peoples - API</title>
+
+    <!-- <style>
+  body {
+    background-color: red;
+  }
+  </style> -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-10">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Buscar</span>
+            </div>
+            <input
+              type="text"
+              id="nomeBuscado"
+              class="form-control"
+              placeholder="Nome do Funcionário"
+              aria-label="nome"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </div>
+        <div class="col-2">
+          <input
+            class="btn btn-primary"
+            type="submit"
+            value="Buscar"
+            id="btnBuscar"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- <h1>Senai é top e backend também</h1> -->
+          <table class="table table-hover" id="tabela-lista">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Data de Nascimento</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-lista-corpo"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var objJson = [];
+
+      window.document.onload = carregarDadosDaPagina();
+
+      function carregarDadosDaPagina() {
+        const URL = `http://localhost:5000/api/funcionarios`;
+        fetch(URL)
+          .then(resposta => resposta.json())
+          .then(data => preencherDados(data))
+          .catch(erro => console.error(erro));
+      }
+
+      var listing_table = document.getElementById("tabela-lista-corpo");
+
+      //   listing_table.innerHTML = "";
+
+      function preencherDados(lista) {
+        listing_table.innerHTML = "";
+        lista.forEach(element => {
+          let linha = document.createElement("tr");
+          let itemDaLinhaId = document.createElement("td");
+          itemDaLinhaId.innerText = element.idFuncionario;
+          let itemDaLinhaNome = document.createElement("td");
+          itemDaLinhaNome.innerText = element.nome;
+          let itemDaLinhaSobrenome = document.createElement("td");
+          itemDaLinhaSobrenome.innerText = element.sobrenome;
+          let itemDaLinhaDataNascimento = document.createElement("td");
+          itemDaLinhaDataNascimento.innerText = element.dataNascimento.substr(
+            0,
+            element.dataNascimento.indexOf("T")
+          );
+          linha.appendChild(itemDaLinhaId);
+          linha.appendChild(itemDaLinhaNome);
+          linha.appendChild(itemDaLinhaSobrenome);
+          linha.appendChild(itemDaLinhaDataNascimento);
+          listing_table.appendChild(linha);
+        });
+      }
+
+      let btnBuscar = document.getElementById("btnBuscar");
+      btnBuscar.addEventListener("click", function(event) {
+        event.preventDefault();
+        buscarPorNome(document.getElementById("nomeBuscado").value);
+      });
+
+      function buscarPorNome(nome) {
+        fetch(`http://localhost:5000/api/funcionarios/buscar/` + nome)
+          .then(resposta => resposta.json())
+          .then(data => preencherDados(data))
+          .catch(erro => carregarDadosDaPagina());
+      }
+    </script>
+  </body>
+</html>

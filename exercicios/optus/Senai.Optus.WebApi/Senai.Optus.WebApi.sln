@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.Optus.WebApi", "Senai.Optus.WebApi\Senai.Optus.WebApi.csproj", "{63EF91CC-694E-4795-BCE5-21221C98EE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63EF91CC-694E-4795-BCE5-21221C98EE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EF91CC-694E-4795-BCE5-21221C98EE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EF91CC-694E-4795-BCE5-21221C98EE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EF91CC-694E-4795-BCE5-21221C98EE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6632C4B5-5028-4D44-92FF-7E7164317967}
+	EndGlobalSection
+EndGlobal

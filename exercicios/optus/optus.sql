@@ -20,7 +20,8 @@ CREATE TABLE Artistas
 SELECT * FROM Estilos;
 
 INSERT INTO Estilos VALUES ('Folk');
-INSERT INTO Artistas VALUES ('Stu Larsen', 4);
+INSERT INTO Artistas VALUES ('Stu Larsen', 1);
+INSERT INTO Artistas VALUES ('Local Natives', 1);
 
 SELECT * FROM ARTISTAS;
 
@@ -36,3 +37,5 @@ CREATE TABLE Usuarios
 
 INSERT INTO Usuarios (Email, Senha, Permissao) VALUES ('admin@email.com', '123456', 'ADMINISTRADOR');
 INSERT INTO Usuarios (Email, Senha, Permissao) VALUES ('comum@email.com', '123456', 'COMUM');
+
+SELECT * FROM Usuarios;

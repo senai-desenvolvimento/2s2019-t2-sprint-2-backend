@@ -1,0 +1,14 @@
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\bin\Debug\netcoreapp2.1\Senai.Optus.WebApi.deps.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\bin\Debug\netcoreapp2.1\Senai.Optus.WebApi.runtimeconfig.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\bin\Debug\netcoreapp2.1\Senai.Optus.WebApi.runtimeconfig.dev.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\bin\Debug\netcoreapp2.1\Senai.Optus.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.csprojAssemblyReference.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.csproj.CoreCompileInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.RazorAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.RazorAssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.AssemblyInfoInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.AssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.RazorTargetAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\bin\Debug\netcoreapp2.1\Senai.Optus.WebApi.pdb
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\optus\Senai.Optus.WebApi\Senai.Optus.WebApi\obj\Debug\netcoreapp2.1\Senai.Optus.WebApi.pdb
