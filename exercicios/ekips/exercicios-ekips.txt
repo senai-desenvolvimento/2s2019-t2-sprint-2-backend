@@ -6,7 +6,7 @@ Por Exemplo:
 
 Os funcionários devem possuir as seguintes características:
 Os usuários devem possuir email, senha e permissão.
-Nome, CPF, DataNascimento, Salário, Departamento, Cargo e o Usuário vinculado.
+Funcionários devem conter Nome, CPF, DataNascimento, Salário, Departamento, Cargo e o Usuário vinculado.
 Departamentos devem conter como características somente o nome.
 Cargos devem conter como características nome e se está ativo ou não.
 
