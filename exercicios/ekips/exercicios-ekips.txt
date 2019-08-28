@@ -4,7 +4,6 @@ Por Exemplo:
 - O Bob participa do departamento jurídico e possui o cargo de Advogado Trabalhista.
 - O Fernando participa do departamento de tecnologia e possui o cargo de Product Owner.
 
-Os funcionários devem possuir as seguintes características:
 Os usuários devem possuir email, senha e permissão.
 Funcionários devem conter Nome, CPF, DataNascimento, Salário, Departamento, Cargo e o Usuário vinculado.
 Departamentos devem conter como características somente o nome.
