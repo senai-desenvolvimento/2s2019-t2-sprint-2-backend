@@ -1,7 +1,9 @@
+CREATE DATABASE BookStore;
 CREATE DATABASE M_BookStore;
 -- ou
 CREATE DATABASE T_BookStore;
 
+USE BookStore;
 USE M_BookStore;
 USE T_BookStore;
 
