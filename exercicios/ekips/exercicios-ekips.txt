@@ -30,7 +30,7 @@ PUT /api/funcionarios/{id}
 DELETE /api/funcionarios/{id}
 Ao trazer os funcionários, apresentar também os cargos e os devidos departamentos. Estes endpoints só podem ser acessados por usuários ADMINISTRADORES.
 Mas tem UMA condição. Caso o usuário COMUM esteja tentando acessar GET /api/funcionarios, deverá retornar somente os dados dele mesmo, ou seja, suas próprias informações. Caso contrário, caso seja ADMINISTRADOR, listar todos os funcionários. Sem regra.
-Atenção: os endpoints de funcionários são os principais que você deverá desenvolver. 
+Atenção: os endpoints de funcionários são os principais que você deverá desenvolver.
 
 Departamentos
 GET /api/departamentos
@@ -62,6 +62,9 @@ Somente usuário ADMINISTRADOR:
 Criar um endpoint para mostrar todos os funcionários de determinado departamento.
 GET /api/departamentos/{id}/funcionarios
 
+Criar um endpoint para listar os dados dos funcionários e seus respectivos cargos e departamentos.
+GET /api/funcionarios/dados
+
 Criar um endpoint para mostrar todos os funcionários com determinado cargo.
 GET /api/cargos/{id}/funcionarios
 
@@ -78,5 +81,7 @@ Criar um endpoint para realizar a busca somente dos cargos ativo no sistema.
 GET /api/cargos/ativos
 
 Ao tentar cadastrar um funcionário e o usuário que está tentando cadastrar enviar um cargo ou setor que não existe, mostrar uma mensagem de erro.
+
+Ao tentar cadastrar um funcionário, somente deixar cadastrar com um determinado cargo que estiver ativo. Caso esteja inativo, mostrar uma mensagem de erro.
 
 --------------------------------------------------------
