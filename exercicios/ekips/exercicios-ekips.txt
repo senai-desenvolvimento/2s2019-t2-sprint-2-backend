@@ -1,0 +1,80 @@
+A empresa Ekips contratou você para desenvolver a API utilizando tecnologias atuais de mercado. Ela percebeu que a equipe de Recursos Humanos (RH) precisa cadastrar os dados de todos os seus funcionários e que cada funcionário participa de um determinado departamento (setor) dentro da empresa e além disso, possui um cargo.
+
+Por Exemplo:
+- O Bob participa do departamento jurídico e possui o cargo de Advogado Trabalhista.
+- O Fernando participa do departamento de tecnologia e possui o cargo de Product Owner.
+
+Os funcionários devem possuir as seguintes características:
+Os usuários devem possuir email, senha e permissão.
+Nome, CPF, DataNascimento, Salário, Departamento, Cargo e o Usuário vinculado.
+Departamentos devem conter como características somente o nome.
+Cargos devem conter como características nome e se está ativo ou não.
+
+Devem existir 2 tipos de permissão. ADMINISTRADOR e COMUM.
+O fato de ser administrador ou comum não está diretamente vinculado ao setor ou cargo. Deve estar vinculado a permissão do usuário.
+
+Banco de Dados
+M_Ekips | T_Ekips
+Disponibilizar o arquivo com o DDL, DML e DQL. Pode ser somente em um arquivo com o nome: script_ekips.sql.
+
+BackEnd
+Pode utilizar EFCore ou SQLClient.
+Criar os seguintes endpoints.
+
+Funcionarios
+GET /api/funcionarios
+POST /api/funcionarios
+PUT /api/funcionarios/{id}
+DELETE /api/funcionarios/{id}
+Ao trazer os funcionários, apresentar também os cargos e os devidos departamentos. Estes endpoints só podem ser acessados por usuários ADMINISTRADORES.
+Mas tem UMA condição. Caso o usuário COMUM esteja tentando acessar GET /api/funcionarios, deverá retornar somente os dados dele mesmo, ou seja, suas próprias informações. Caso contrário, caso seja ADMINISTRADOR, listar todos os funcionários. Sem regra.
+Atenção: os endpoints de funcionários são os principais que você deverá desenvolver. 
+
+Departamentos
+GET /api/departamentos
+GET /api/departamentos/{id}
+POST /api/departamentos
+Estes endpoints podem ser acessados por qualquer usuário que esteja autenticado.
+
+Cargos
+GET /api/cargos
+GET /api/cargos/{id}
+POST /api/cargos
+PUT /api/cargos/{id}
+Estes endpoints podem ser acessados por qualquer usuário que esteja autenticado.
+
+Postman.
+Swagger.
+Documentação.
+
+Detalhe: lembrar de incluir a autenticação/autorização (JWT);
+
+--------------------------------------------------------
+
+Desafios Extras
+
+--------------------------------------------------------
+
+Somente usuário ADMINISTRADOR:
+
+Criar um endpoint para mostrar todos os funcionários de determinado departamento.
+GET /api/departamentos/{id}/funcionarios
+
+Criar um endpoint para mostrar todos os funcionários com determinado cargo.
+GET /api/cargos/{id}/funcionarios
+
+Criar um endpoint para pesquisar todos os funcionários de determinado cargo, porém, passando o nome do cargo.
+GET /api/cargos/buscar/{nome}/funcionarios
+
+Criar um endpoint para, dado um determinado salário, apresentar todos os funcionarios com salario igual ou superior ao valor fornecido pelo usuário.
+GET /api/funcionarios/{salario}/salarios
+
+Criar um endpoints para realizar a seguinte ordenacao. Primeiro, pelo item fornecido: Salario. Depois: ASC ou DESC.
+GET /api/funcionarios/{coluna}/{ordem}
+
+Criar um endpoint para realizar a busca somente dos cargos ativo no sistema.
+GET /api/cargos/ativos
+
+Ao tentar cadastrar um funcionário e o usuário que está tentando cadastrar enviar um cargo ou setor que não existe, mostrar uma mensagem de erro.
+
+--------------------------------------------------------
