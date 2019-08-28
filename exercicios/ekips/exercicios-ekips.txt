@@ -1,4 +1,4 @@
-A empresa Ekips contratou você para desenvolver a API utilizando tecnologias atuais de mercado. Ela percebeu que a equipe de Recursos Humanos (RH) precisa cadastrar os dados de todos os seus funcionários e que cada funcionário participa de um determinado departamento (setor) dentro da empresa e além disso, possui um cargo.
+A empresa Ekips contratou você para desenvolver a API utilizando tecnologias atuais de mercado. Ela percebeu que a equipe Administradora precisa cadastrar os dados de todos os seus funcionários e que cada funcionário participa de um determinado departamento (setor) dentro da empresa e além disso, possui um cargo.
 
 Por Exemplo:
 - O Bob participa do departamento jurídico e possui o cargo de Advogado Trabalhista.
@@ -16,6 +16,8 @@ O fato de ser administrador ou comum não está diretamente vinculado ao setor ou 
 Banco de Dados
 M_Ekips | T_Ekips
 Disponibilizar o arquivo com o DDL, DML e DQL. Pode ser somente em um arquivo com o nome: script_ekips.sql.
+
+Nome do Projeto: Senai.Ekips.WebApi.
 
 BackEnd
 Pode utilizar EFCore ou SQLClient.
