@@ -14,7 +14,7 @@ System.Data.SqlClient 4.6.1
 
 --------------------------------------------------EFCore-------------------------------------------------------------------------------------------------------------
 Microsoft.EntityFrameworkCore.SqlServer 2.1.11
-Microsoft.EntityFrameworkCore.SqlServer.Design 2.1.11
+Microsoft.EntityFrameworkCore.SqlServer.Design 1.1.6
 Microsoft.EntityFrameworkCore.Tools 2.1.11
 
 Scaffold-DbContext "Data Source=.\SqlExpress; Initial Catalog=M_Ekips;User Id=sa;Pwd=132" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context EkipsContext
