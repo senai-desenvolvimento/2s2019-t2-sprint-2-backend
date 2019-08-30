@@ -29,26 +29,35 @@ namespace Senai.Gufos.WebApi.Controllers
                 if (Usuario == null)
                     return NotFound(new { mensagem = "Email ou senha inválidos." });
 
+                // informacoes do usuario
                 var claims = new[]
                 {
                     // email
                     new Claim(JwtRegisteredClaimNames.Email, Usuario.Email),
-                    new Claim("chave", "valor"),
+                    // posso criar chave e valor do que eu quiser
+                    new Claim("Nome", "Lucas"),
                     // id
                     new Claim(JwtRegisteredClaimNames.Jti, Usuario.IdUsuario.ToString()),
                     // é a permissão do usuário
                     new Claim(ClaimTypes.Role, Usuario.Permissao),
                 };
 
+                // chave que tambem esta configurada no startup
                 var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("gufos-chave-autenticacao"));
 
+                // criptografia
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
+                // eh o proprio token 
                 var token = new JwtSecurityToken(
+                    // quem esta mandando e quem esta validando
                     issuer: "Gufos.WebApi",
                     audience: "Gufos.WebApi",
+                    // sao as informacoes do usuario
                     claims: claims,
+                    // data de expiracao
                     expires: DateTime.Now.AddDays(30),
+                    // eh a chave
                     signingCredentials: creds);
 
                 // gerar a chave pra vocês

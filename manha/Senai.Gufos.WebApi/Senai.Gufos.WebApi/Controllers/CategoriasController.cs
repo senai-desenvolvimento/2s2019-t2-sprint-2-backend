@@ -26,6 +26,7 @@ namespace Senai.Gufos.WebApi.Controllers
         [HttpGet]
         public IActionResult ListarTodos()
         {
+            var a = HttpContext.User.Claims;
             return Ok(CategoriaRepository.Listar());
         }
         /// <summary>
