@@ -1,0 +1,54 @@
+A empresa AutoPeças é uma administradora e convidou você a desenvolver uma nova API para que seja possível realizar a disponibilização dos registros de suas peças de cada fornecedor.
+Devemos considerar os critérios mencionados abaixo:
+- Cada fornecedor poderá cadastrar peças;
+- Quando os fornecedores listarem as peças, deverão listar somente as suas.
+-- Por exemplo, quando o Fornecedor A cadastrar a 'Peça 1' e a 'Peça 2' e o Fornecedor B cadastrar a 'Peça 3' e 'Peça 4', ao Fornecedor A solicitar a lista de peças, deverá aparecer somente as Peças: 1 e 2.
+
+Você deverá ser capaz de desenvolver os seguintes tópicos abaixo:
+
++ Banco de Dados
+
+Script contendo a criação do banco, das tabelas e seus determinados registros.
+- autopecas_script.sql
+M_AutoPecas | T_AutoPecas
+Tabelas contendo os seguintes dados:
+- Peças - código da peça (que o fornecedor define), descricao, peso, preço de custo, preço de venda e somente um fornecedor vinculado;
+- Fornecedores - cnpj, razão social, nome fantasia, endereço e possui somente um usuário vinculado;
+- Usuários - email e senha.
+
++ BackEnd
+Deverá conter os seguintes endpoints:
+
+GET /api/pecas
+GET /api/pecas/{id}
+POST /api/pecas
+PUT /api/pecas/{id}
+DELETE /api/pecas/{id}
+
+Lembre-se de algo: caso o fornecedor tente atualizar uma peça que não lhe pertence, deverá retornar um erro, pois ele não possui acesso àquela peça.
+
+Lembrar de incluir o swagger e lembrar de colocar mais um endpoint para gerar o token e outro para cadastrar novos usuários.
+Lembre-se de limitar os endpoints para que somente usuários autenticados e autorizados realizem a listagem, cadastro e afins.
+
+Deverá ser entregue em um repositório do github e incluir o link na planilha disponibilizada para que vocês coloquem na coluna correspondente (AutoPeças).
+
+Dados a serem entregues:
+- BD
+- BackEnd
+- Swagger
+- Postman
+- GitHub
+
++ Desafios Extras
+
+Disponibilizar um endpoint para que seja mostrado o valor de ganho que a autopeças irá obter calculando o preço de venda sob o preço de custo. Mostrar a porcentagem e um outro campo mostrando a diferença em reais entre um e outro.
+GET /api/pecas/precos
+
+Disponibilizar um endpoint público para que seja apresentado os dados de todos os fornecedores.
+GET /api/fornecedores
+
+Disponibilizar um endpoint público para que seja apresentado os dados de todos os usuários, mas com um detalhe: a senha não deverá ser mostrada.
+GET /api/usuarios
+
+Disponibilizar um endpoint para que ao enviar a quantidade de itens e o id da peça, seja calculado o valor total e este valor seja retornado.
+POST /api/pecas/calcular
