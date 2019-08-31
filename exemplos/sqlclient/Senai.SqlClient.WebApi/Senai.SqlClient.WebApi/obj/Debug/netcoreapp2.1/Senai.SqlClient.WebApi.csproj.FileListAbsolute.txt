@@ -1,0 +1,14 @@
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\bin\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.deps.json
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\bin\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.runtimeconfig.json
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\bin\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.runtimeconfig.dev.json
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\bin\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.dll
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.RazorAssemblyInfo.cache
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.RazorAssemblyInfo.cs
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\bin\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.pdb
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.dll
+C:\Users\Administrador\Desktop\exemplos\sqlclient\Senai.SqlClient.WebApi\Senai.SqlClient.WebApi\obj\Debug\netcoreapp2.1\Senai.SqlClient.WebApi.pdb

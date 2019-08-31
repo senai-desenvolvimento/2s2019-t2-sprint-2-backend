@@ -1,0 +1,14 @@
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\bin\Debug\netcoreapp2.1\Senai.Auth.WebApi.deps.json
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\bin\Debug\netcoreapp2.1\Senai.Auth.WebApi.runtimeconfig.json
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\bin\Debug\netcoreapp2.1\Senai.Auth.WebApi.runtimeconfig.dev.json
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\bin\Debug\netcoreapp2.1\Senai.Auth.WebApi.dll
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.RazorAssemblyInfo.cache
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.RazorAssemblyInfo.cs
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\bin\Debug\netcoreapp2.1\Senai.Auth.WebApi.pdb
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.dll
+C:\Users\Administrador\Desktop\exemplos\auth\Senai.Auth.WebApi\Senai.Auth.WebApi\obj\Debug\netcoreapp2.1\Senai.Auth.WebApi.pdb
