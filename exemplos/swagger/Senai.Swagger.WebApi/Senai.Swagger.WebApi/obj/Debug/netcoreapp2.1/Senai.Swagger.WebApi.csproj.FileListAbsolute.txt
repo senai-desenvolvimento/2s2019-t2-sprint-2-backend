@@ -1,0 +1,14 @@
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\bin\Debug\netcoreapp2.1\Senai.Swagger.WebApi.deps.json
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\bin\Debug\netcoreapp2.1\Senai.Swagger.WebApi.runtimeconfig.json
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\bin\Debug\netcoreapp2.1\Senai.Swagger.WebApi.runtimeconfig.dev.json
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\bin\Debug\netcoreapp2.1\Senai.Swagger.WebApi.dll
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.RazorAssemblyInfo.cache
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.RazorAssemblyInfo.cs
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\bin\Debug\netcoreapp2.1\Senai.Swagger.WebApi.pdb
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.dll
+C:\Users\Administrador\Desktop\exemplos\swagger\Senai.Swagger.WebApi\Senai.Swagger.WebApi\obj\Debug\netcoreapp2.1\Senai.Swagger.WebApi.pdb
