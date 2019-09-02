@@ -1,0 +1,14 @@
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.Ekips.WebApi.deps.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.Ekips.WebApi.runtimeconfig.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.Ekips.WebApi.runtimeconfig.dev.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.Ekips.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.csprojAssemblyReference.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.csproj.CoreCompileInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.RazorAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.RazorAssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.AssemblyInfoInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.AssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.RazorTargetAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.Ekips.WebApi.pdb
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.pdb

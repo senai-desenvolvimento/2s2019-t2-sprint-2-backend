@@ -1,0 +1,14 @@
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BookStore.WebApi.deps.json
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BookStore.WebApi.runtimeconfig.json
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BookStore.WebApi.runtimeconfig.dev.json
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BookStore.WebApi.dll
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.csprojAssemblyReference.cache
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.csproj.CoreCompileInputs.cache
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.RazorAssemblyInfo.cache
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.RazorAssemblyInfo.cs
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.AssemblyInfoInputs.cache
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.AssemblyInfo.cs
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.RazorTargetAssemblyInfo.cache
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BookStore.WebApi.pdb
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.dll
+C:\Git\senai-dev-2s2019\sprint-2-backend\exercicios\livros\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BookStore.WebApi.pdb
