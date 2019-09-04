@@ -1,0 +1,14 @@
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.deps.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.runtimeconfig.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.runtimeconfig.dev.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.csprojAssemblyReference.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.csproj.CoreCompileInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorAssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.AssemblyInfoInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.AssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorTargetAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.pdb
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\desafios\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.pdb
