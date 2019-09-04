@@ -1,0 +1,14 @@
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\bin\Debug\netcoreapp2.1\Senai.CgStore.WebApi.deps.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\bin\Debug\netcoreapp2.1\Senai.CgStore.WebApi.runtimeconfig.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\bin\Debug\netcoreapp2.1\Senai.CgStore.WebApi.runtimeconfig.dev.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\bin\Debug\netcoreapp2.1\Senai.CgStore.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.csprojAssemblyReference.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.csproj.CoreCompileInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.RazorAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.RazorAssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.AssemblyInfoInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.AssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.RazorTargetAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\bin\Debug\netcoreapp2.1\Senai.CgStore.WebApi.pdb
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\revisao\Senai.CgStore.WebApi\Senai.CgStore.WebApi\obj\Debug\netcoreapp2.1\Senai.CgStore.WebApi.pdb
