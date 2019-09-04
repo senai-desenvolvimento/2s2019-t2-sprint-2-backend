@@ -8,17 +8,12 @@ namespace Senai.Gufos.WebApi.Repositories
 {
     public class CategoriaRepository
     {
-        // nao ira mudar o acesso ao banco de dados, nao irei deixar de acessa-lo
-        // o que ira mudar eh como eu faco esse acesso
-        /// <summary>
-        /// Listar todas as categorias.
-        /// </summary>
-        /// <returns>Lista de Categorias</returns>
         public List<Categorias> Listar()
         {
             using (GufosContext ctx = new GufosContext())
             {
-                // SELECT * FROM Categorias
+                // facilitar a nossa vida
+                // select * from categorias;
                 return ctx.Categorias.ToList();
             }
         }
@@ -27,53 +22,49 @@ namespace Senai.Gufos.WebApi.Repositories
         {
             using (GufosContext ctx = new GufosContext())
             {
-                // INSERT INTO
+                // insert into categorias (nome) values (@nome);
                 ctx.Categorias.Add(categoria);
                 ctx.SaveChanges();
             }
         }
 
-        // BuscarPorId
+        // buscar por id
         public Categorias BuscarPorId(int id)
         {
             using (GufosContext ctx = new GufosContext())
             {
-                // select com where
-                // id da nossa tabela seja igual ao id enviado pelo usuario
                 return ctx.Categorias.FirstOrDefault(x => x.IdCategoria == id);
             }
         }
 
-        // Atualizar
+        // atualizar
         public void Atualizar(Categorias categoria)
         {
             using (GufosContext ctx = new GufosContext())
             {
-                // busco a categoria
                 Categorias CategoriaBuscada = ctx.Categorias.FirstOrDefault(x => x.IdCategoria == categoria.IdCategoria);
-                // SET
+                // update categorias set nome = @nome
                 CategoriaBuscada.Nome = categoria.Nome;
-                // atualizo no contexto
+                // insert - add, delete - remove, update - update
                 ctx.Categorias.Update(CategoriaBuscada);
-                // efetivo no database
+                // efetivar
                 ctx.SaveChanges();
             }
         }
 
-        // Deletar
+        // deletar
         public void Deletar(int id)
         {
             using (GufosContext ctx = new GufosContext())
             {
-                // DELETE FROM Categorias WHERE IdCategoria = @Id;
-                // encontrar quem eu quero deletar
-                Categorias CategoriaBuscada = ctx.Categorias.Find(id);
-                // remover o fofinho do contexto
-                ctx.Categorias.Remove(CategoriaBuscada);
-                // efetivar no banco essa mudança
+                // encontrar o item
+                // chave primaria da tabela
+                Categorias Categoria = ctx.Categorias.Find(id);
+                // remover do contexto
+                ctx.Categorias.Remove(Categoria);
+                // efetivar as mudanças no banco de dados
                 ctx.SaveChanges();
             }
         }
-
     }
 }

@@ -13,13 +13,10 @@ namespace Senai.Gufos.WebApi.Repositories
         {
             using (GufosContext ctx = new GufosContext())
             {
-                // buscar os dados no banco e verificar se este email e senha sao validos
-                Usuarios UsuarioBuscado = ctx.Usuarios.FirstOrDefault(x => x.Email == login.Email && x.Senha == login.Senha);
-                if (UsuarioBuscado == null)
-                {
+                Usuarios usuario = ctx.Usuarios.FirstOrDefault(x => x.Email == login.Email && x.Senha == login.Senha);
+                if (usuario == null)
                     return null;
-                }
-                return UsuarioBuscado;
+                return usuario;
             }
         }
     }

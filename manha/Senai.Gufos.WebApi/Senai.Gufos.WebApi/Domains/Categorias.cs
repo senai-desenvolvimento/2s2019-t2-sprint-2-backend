@@ -7,7 +7,7 @@ namespace Senai.Gufos.WebApi.Domains
     {
         public Categorias()
         {
-            Eventos = new HashSet<Eventos>();
+            //Eventos = new HashSet<Eventos>();
         }
 
         public int IdCategoria { get; set; }

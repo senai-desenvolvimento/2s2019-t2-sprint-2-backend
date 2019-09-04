@@ -15,25 +15,21 @@ namespace Senai.Gufos.WebApi.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-
         CategoriaRepository CategoriaRepository = new CategoriaRepository();
 
-        /// <summary>
-        /// Listar todas as categorias
-        /// </summary>
-        /// <returns>200 com a lista de categorias</returns>
         [Authorize]
         [HttpGet]
-        public IActionResult ListarTodos()
+        // IEnumerable<Categorias>
+        public IActionResult Listar()
         {
-            var a = HttpContext.User.Claims;
             return Ok(CategoriaRepository.Listar());
         }
+
         /// <summary>
-        /// Cadastrar uma categoria
+        /// Cadastrar uma categoria.
         /// </summary>
         /// <param name="categoria">Categoria</param>
-        /// <returns>Mensagem de sucesso ou erro.</returns>
+        /// <returns>Mensagem de sucesso.</returns>
         [HttpPost]
         public IActionResult Cadastrar(Categorias categoria)
         {
@@ -44,16 +40,11 @@ namespace Senai.Gufos.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { mensagem = "Ih, deu erro." + ex.Message });
+                return BadRequest(new { mensagem = "Eita, erro: " + ex.Message });
             }
         }
 
-        /// <summary>
-        /// Buscar uma categoria por id.
-        /// </summary>
-        /// <param name="id">int id</param>
-        /// <returns>Categoria Encontrada.</returns>
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "ADMINISTRADOR")]
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -63,11 +54,6 @@ namespace Senai.Gufos.WebApi.Controllers
             return Ok(Categoria);
         }
 
-        /// <summary>
-        /// Deletar uma categoria por id
-        /// </summary>
-        /// <param name="id">int id</param>
-        /// <returns>Sucesso caso seja deletado.</returns>
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -78,19 +64,20 @@ namespace Senai.Gufos.WebApi.Controllers
         [HttpPut]
         public IActionResult Atualizar(Categorias categoria)
         {
-            try
+            try 
             {
-                Categorias CategoriasBuscada = CategoriaRepository.BuscarPorId(categoria.IdCategoria);
-
-                if (CategoriasBuscada == null)
+                // pesquisar uma categoria
+                Categorias CategoriaBuscada = CategoriaRepository.BuscarPorId(categoria.IdCategoria);
+                // caso nao encontre, not found
+                if (CategoriaBuscada == null)
                     return NotFound();
-
+                // caso contrario, se ela for encontrada, eu atualizo pq quero
                 CategoriaRepository.Atualizar(categoria);
                 return Ok();
             }
             catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new { mensagem = "Ah, não. By - Pedro." });
             }
         }
     }

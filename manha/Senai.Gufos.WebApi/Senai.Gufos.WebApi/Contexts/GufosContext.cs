@@ -26,7 +26,7 @@ namespace Senai.Gufos.WebApi.Domains
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=localhost; Initial Catalog=M_Gufos;Integrated Security=true");
+                optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=T_Gufos;Integrated Security=true;");
             }
         }
 
@@ -37,7 +37,7 @@ namespace Senai.Gufos.WebApi.Domains
                 entity.HasKey(e => e.IdCategoria);
 
                 entity.HasIndex(e => e.Nome)
-                    .HasName("UQ__Categori__7D8FE3B2E74C017A")
+                    .HasName("UQ__Categori__7D8FE3B2B429A6F7")
                     .IsUnique();
 
                 entity.Property(e => e.Nome)
@@ -70,7 +70,7 @@ namespace Senai.Gufos.WebApi.Domains
                 entity.HasOne(d => d.IdCategoriaNavigation)
                     .WithMany(p => p.Eventos)
                     .HasForeignKey(d => d.IdCategoria)
-                    .HasConstraintName("FK__Eventos__IdCateg__3E52440B");
+                    .HasConstraintName("FK__Eventos__IdCateg__3B75D760");
             });
 
             modelBuilder.Entity<Usuarios>(entity =>
@@ -78,7 +78,7 @@ namespace Senai.Gufos.WebApi.Domains
                 entity.HasKey(e => e.IdUsuario);
 
                 entity.HasIndex(e => e.Email)
-                    .HasName("UQ__Usuarios__A9D1053482D9FC50")
+                    .HasName("UQ__Usuarios__A9D105346E24BCAE")
                     .IsUnique();
 
                 entity.Property(e => e.Email)

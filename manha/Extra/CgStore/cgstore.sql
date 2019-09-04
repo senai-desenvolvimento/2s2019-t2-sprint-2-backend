@@ -1,7 +1,7 @@
-CREATE DATABASE M_CgStore
+CREATE DATABASE CgStore
 GO
 
-USE M_CgStore
+USE CgStore
 GO
 
 CREATE TABLE Permissoes

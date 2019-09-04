@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.Gufos.WebApi", "Senai.Gufos.WebApi\Senai.Gufos.WebApi.csproj", "{3FC02FD0-2DFB-47BB-B2C8-A611921F846F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.Gufos.WebApi", "Senai.Gufos.WebApi\Senai.Gufos.WebApi.csproj", "{7650546D-BC65-498C-B874-7D61760B8820}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FC02FD0-2DFB-47BB-B2C8-A611921F846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FC02FD0-2DFB-47BB-B2C8-A611921F846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FC02FD0-2DFB-47BB-B2C8-A611921F846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FC02FD0-2DFB-47BB-B2C8-A611921F846F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7650546D-BC65-498C-B874-7D61760B8820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7650546D-BC65-498C-B874-7D61760B8820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7650546D-BC65-498C-B874-7D61760B8820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7650546D-BC65-498C-B874-7D61760B8820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {058C6D5B-8A4F-409A-A260-DA00DBAE4B58}
+		SolutionGuid = {03993776-4073-4AA8-9B52-0AC9F92EA0D8}
 	EndGlobalSection
 EndGlobal

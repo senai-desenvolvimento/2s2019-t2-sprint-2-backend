@@ -12287,11 +12287,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_github\\2s2019-t2-sprint-2-backend\\manha\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
+      "projectUniqueName": "C:\\_github\\2s2019-t2-sprint-2-backend\\tarde\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
       "projectName": "Senai.Gufos.WebApi",
-      "projectPath": "C:\\_github\\2s2019-t2-sprint-2-backend\\manha\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
+      "projectPath": "C:\\_github\\2s2019-t2-sprint-2-backend\\tarde\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
       "packagesPath": "C:\\Users\\admin.local\\.nuget\\packages\\",
-      "outputPath": "C:\\_github\\2s2019-t2-sprint-2-backend\\manha\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\obj\\",
+      "outputPath": "C:\\_github\\2s2019-t2-sprint-2-backend\\tarde\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

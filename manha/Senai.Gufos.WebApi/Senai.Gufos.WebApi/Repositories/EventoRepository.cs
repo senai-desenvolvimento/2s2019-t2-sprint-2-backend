@@ -9,6 +9,7 @@ namespace Senai.Gufos.WebApi.Repositories
 {
     public class EventoRepository
     {
+        // listar
         public List<Eventos> Listar()
         {
             using (GufosContext ctx = new GufosContext())
@@ -18,10 +19,7 @@ namespace Senai.Gufos.WebApi.Repositories
             }
         }
 
-        /// <summary>
-        /// Cadastrar um evento
-        /// </summary>
-        /// <param name="evento">Evento</param>
+        // cadastrar
         public void Cadastrar(Eventos evento)
         {
             using (GufosContext ctx = new GufosContext())

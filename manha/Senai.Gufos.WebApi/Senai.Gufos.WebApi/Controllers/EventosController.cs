@@ -9,19 +9,25 @@ using Senai.Gufos.WebApi.Repositories;
 
 namespace Senai.Gufos.WebApi.Controllers
 {
-    [Produces("application/json")]
     [Route("api/[controller]")]
+    [Produces("application/json")]
     [ApiController]
     public class EventosController : ControllerBase
     {
+        // repositorio
         EventoRepository EventoRepository = new EventoRepository();
-
+        // endpoints
         [HttpGet]
         public IActionResult Listar()
         {
             return Ok(EventoRepository.Listar());
         }
 
+        /// <summary>
+        /// Cadastrar um evento
+        /// </summary>
+        /// <param name="evento">Evento</param>
+        /// <returns>Mensagem de sucesso.</returns>
         [HttpPost]
         public IActionResult Cadastrar(Eventos evento)
         {
@@ -32,7 +38,7 @@ namespace Senai.Gufos.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { mensagem = "Ocorreu um erro: " + ex.Message });
+                return BadRequest(new { mensagem = "Erro ao cadastrar." + ex.Message });
             }
         }
     }

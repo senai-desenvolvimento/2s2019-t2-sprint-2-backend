@@ -12,49 +12,52 @@ namespace Senai.Gufos.WebApi
 {
     public class Startup
     {
+      
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc()
-                .AddJsonOptions
-                (
-                options => {
+                .AddJsonOptions(options => 
+                {
                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                     options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
                 })
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
-
-            // configurar 
-            services.AddAuthentication(options => 
-            {
-                options.DefaultAuthenticateScheme = "JwtBearer";
-                options.DefaultChallengeScheme = "JwtBearer";
-            }).AddJwtBearer("JwtBearer", options => 
-            {
-                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-
-                    ValidateAudience = true,
-
-                    ValidateLifetime = true,
-
-                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("gufos-chave-autenticacao")),
-
-                    ClockSkew = TimeSpan.FromMinutes(30),
-
-                    ValidIssuer = "Gufos.WebApi",
-
-                    ValidAudience = "Gufos.WebApi"
-                };
-            });
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Gufos API", Version = "v1" });
             });
 
+
+            // configurar - token - jwt
+            // implementar a autenticacao
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+            }).AddJwtBearer("JwtBearer", options =>
+            {
+                // definir as opcoes
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    // quem esta solicitando
+                    ValidateIssuer = true,
+                    // quem esta validando
+                    ValidateAudience = true,
+                    // tempo de expiracao
+                    ValidateLifetime = true,
+                    // forma de criptografia
+                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("gufos-chave-autenticacao")),
+                    // tempo de expiracao
+                    ClockSkew = TimeSpan.FromMinutes(30),
+                    // quem esta enviando
+                    ValidIssuer = "Gufos.WebApi",
+                    ValidAudience = "Gufos.WebApi"
+                };
+            });
         }
 
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -62,7 +65,7 @@ namespace Senai.Gufos.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
-            // colocar em uso
+            // habilita a autenticacao
             app.UseAuthentication();
 
             app.UseSwagger();
@@ -73,7 +76,6 @@ namespace Senai.Gufos.WebApi
             });
 
             app.UseMvc();
-            
 
         }
     }
