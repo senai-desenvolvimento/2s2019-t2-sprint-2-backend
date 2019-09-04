@@ -53,4 +53,3 @@ GET /api/usuarios
 
 Disponibilizar um endpoint para que ao enviar a quantidade de itens e o id da peça, seja calculado o valor total e este valor seja retornado.
 POST /api/pecas/calcular
-
