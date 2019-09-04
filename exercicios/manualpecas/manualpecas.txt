@@ -14,5 +14,4 @@ Cadastrar Fornecedor;
 + Itens
 - Criar um endpoint público para que ao buscar uma determinada peça, ela me traga o fornecedor mais barato.
 - Criar um endpoint para listar por ordem crescente, as peças mais baratas.
-
-
+- Criar um endpoint que ao passar um fornecedor me devolva uma lista de todas as suas peças.
