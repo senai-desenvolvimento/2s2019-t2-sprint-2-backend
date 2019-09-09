@@ -17,7 +17,6 @@ Tabelas contendo os seguintes dados:
 - Usuários - email e senha.
 
 + BackEnd
-Obs.: Lembrar de trabalhar, obrigatoriamente com interfaces.
 Deverá conter os seguintes endpoints:
 
 GET /api/pecas

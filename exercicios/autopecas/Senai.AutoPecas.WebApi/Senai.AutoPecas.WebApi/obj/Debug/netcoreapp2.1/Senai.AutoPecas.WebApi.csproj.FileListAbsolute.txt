@@ -1,0 +1,14 @@
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.deps.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.runtimeconfig.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.runtimeconfig.dev.json
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.csprojAssemblyReference.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.csproj.CoreCompileInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.RazorAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.RazorAssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.AssemblyInfoInputs.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.AssemblyInfo.cs
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.RazorTargetAssemblyInfo.cache
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.pdb
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.dll
+C:\_github\senai-dev-2s2019\sprint-2-backend\exercicios\autopecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.pdb
