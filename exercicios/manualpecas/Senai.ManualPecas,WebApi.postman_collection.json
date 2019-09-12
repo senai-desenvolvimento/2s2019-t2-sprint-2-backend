@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "8e0d566c-83f4-4f33-bb8f-250f4b7d88f7",
+		"name": "Senai.ManualPecas,WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fornecedores",
+			"item": [
+				{
+					"name": "Forncedores.ListaMaisBaratos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/Fornecedores/menorpreco/1",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Fornecedores",
+								"menorpreco",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fornecedores.Atualizar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMCIsIkZvcm5lY2Vkb3JJZCI6IjEwIiwiQ05QSiI6IjEyLjM0NS42NzgvMDAwMS0wMyIsImV4cCI6MTU2ODI0ODY2MSwiaXNzIjoiTWFudWFsUGVjYXMuV2ViQXBpIiwiYXVkIjoiTWFudWFsUGVjYXMuV2ViQXBpIn0.Xftml8pVtIwcrJ8fE6auTvSioAn3z9DTTZmS1TsAOag",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Senha\": \"123456\",\n    \"Nome\": \"Fornecedor F\",\n    \"Cnpj\": \"12.345.678/0001-03\"\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/Fornecedores/",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Fornecedores",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fornecedores.Cadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"senha\": \"123456\",\r\n        \"nome\": \"Fornecedor F\",\r\n        \"cnpj\": \"12.345.678/0001-03\"\r\n    }"
+						},
+						"url": {
+							"raw": "localhost:5000/api/Fornecedores",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Fornecedores"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pecas",
+			"item": [
+				{
+					"name": "Pecas.ListaEmOrdem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/Pecas/ListaEmOrdem",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas",
+								"ListaEmOrdem"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pecas.Adicionar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMCIsIkZvcm5lY2Vkb3JJZCI6IjEwIiwiQ05QSiI6IjEyLjM0NS42NzgvMDAwMS0wMyIsImV4cCI6MTU2ODI0ODY2MSwiaXNzIjoiTWFudWFsUGVjYXMuV2ViQXBpIiwiYXVkIjoiTWFudWFsUGVjYXMuV2ViQXBpIn0.Xftml8pVtIwcrJ8fE6auTvSioAn3z9DTTZmS1TsAOag",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Codigo\":\"7\",\n\t\"Descricao\":\"Peça K\",\n\t\"Preco\":\"20.55\"\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/Pecas/",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pecas.Atualizar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMCIsIkNOUEoiOiIxMi4zNDUuNjc4LzAwMDEtMDMiLCJleHAiOjE1NjgzMDM2MzUsImlzcyI6Ik1hbnVhbFBlY2FzLldlYkFwaSIsImF1ZCI6Ik1hbnVhbFBlY2FzLldlYkFwaSJ9.cHBvS1DPQB3G5Ks-7udYkPkrPEvNrTAdWc_yxUKXcVo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"PecaId\":\"13\",\n\t\"Codigo\":\"7\",\n\t\"Descricao\":\"Peça K alterada\"\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/Pecas/",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pecas.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/Pecas",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pecas.Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMCIsIkNOUEoiOiIxMi4zNDUuNjc4LzAwMDEtMDMiLCJleHAiOjE1NjgzMTEyNjUsImlzcyI6Ik1hbnVhbFBlY2FzLldlYkFwaSIsImF1ZCI6Ik1hbnVhbFBlY2FzLldlYkFwaSJ9.4usHIKfEnMYaZirBPadAGVodjumpU4gDTTCDCxu1Gl8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:5000/api/Pecas/12",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pecas.ListarCrescente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/Pecas/ListarCrescente",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas",
+								"ListarCrescente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pecas.BuscarPorFornecedor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/Pecas/BuscarPorFornecedor/2",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pecas",
+								"BuscarPorFornecedor",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "Login.Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Senha\": \"123456\",\n    \"Cnpj\": \"12.345.678/0001-03\"\n}"
+						},
+						"url": {
+							"raw": "localhost:5000/api/login",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
