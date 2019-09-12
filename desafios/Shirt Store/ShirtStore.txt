@@ -1,0 +1,36 @@
+O Aplicativo Shirt Store é uma plataforma onde são mostradas as Camisetas de várias marcas.
+Você foi contratado por ela para desenvolver uma API que será utilizada pelo front-end que trabalha na empresa.
+
+A plataforma terá as tabelas abaixo
+Usuários
+Perfis (Gerente, Atendente)
+Empresas
+Camisetas
+Tamanhos
+Cores
+Estoque
+
+Por exemplo: um usuário com email empresa@email.com e senha 123456, com perfil de Gerente, é da empresa 'Khelf' que cadastra uma camiseta com descrição 'Khelf, nunca nem comprei.' e possui os tamanhos P nas cores Azul (3 unidades) e Roxa (2 unidades), tamanho G na cor Preta (1 unidade) e M na cor cinza (0 - nenhuma unidade).
+
+Regras
+As empresas podem conter vários usuários cadastrados.
+Uma camiseta é composta por marca, descrição, tamanho, cor e quantidade;
+Uma camiseta tem somente uma marca vinculada;
+Uma camiseta pode ter vários tamanhos e cores;
+Cada camiseta tem um quantidade.
+Ex. 
+	- Camiseta descrição 1 na cor Preta, tamanho M 2 peças, tamanho P 6 peças;
+	- Camiseta descrição 1 na cor Cinza, tamanho M 2 peças, tamanho GG 1 peça;
+
+Suas Tarefas (Por enquanto)
+Criar a base de dados M_ShirtStore|T_ShirtStore
+Criar um projeto chamado Senai.ShirtStore.WebApi;
+Disponibilizar uma documentação dos endpoits do projeto usando Swagger;
+Disponibilizar o teste dos endpoints utilizando o Postman;
+Disponibilizar os endpoints para as ações listadas abaixo:
+	- Login;
+	- CRUD de Marcas;
+	- CRUD de Camisetas;
+	- Listar todas a marcas disponíveis
+	- Listar todos o tamanhos disponíveis
+	- Listar todas as camisetas e sua respectiva marcas 
