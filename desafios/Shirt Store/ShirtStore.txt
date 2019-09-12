@@ -21,8 +21,16 @@ Cada camiseta tem um quantidade.
 Ex. 
 	- Camiseta descrição 1 na cor Preta, tamanho M 2 peças, tamanho P 6 peças;
 	- Camiseta descrição 1 na cor Cinza, tamanho M 2 peças, tamanho GG 1 peça;
+	
+Somente os Gerentes da empresa podem cadastrar uma camiseta.
+Ex. O usuário gerente@adidas.com da empresa Adidas adiciona as camisetas da marca.
 
-Suas Tarefas (Por enquanto)
+Qualquer pessoa, mesmo que não esteja com o token, pode visualizar as empresas e quais camisetas possuem (mas não conseguem visualizar os tamanhos e nem as cores).
+E as empresas somente podem visualizar suas próprias camisetas. Os usuários das empresas não podem visualizar as camisetas de outras marcas.
+
+Não pode ter uma empresa cadastrada no sistema sem usuários;
+
+Suas Tarefas
 Criar a base de dados M_ShirtStore|T_ShirtStore
 Criar um projeto chamado Senai.ShirtStore.WebApi;
 Disponibilizar uma documentação dos endpoits do projeto usando Swagger;
@@ -33,4 +41,10 @@ Disponibilizar os endpoints para as ações listadas abaixo:
 	- CRUD de Camisetas;
 	- Listar todas a marcas disponíveis
 	- Listar todos o tamanhos disponíveis
-	- Listar todas as camisetas e sua respectiva marcas 
+	- Listar todas as camisetas e sua respectiva marcas                                                                                                                                  
+	- Somente um Gerente da marca pode cadastrar outro usuário da própria marca;
+	- Somente um Gerente pode desativar outro da própria empresa;
+
+Desafios Extras
+	- Qualquer usuário logado pode retirar um peça do estoque;
+	- Somente um Gerente pode adicionar peças no estoque;
