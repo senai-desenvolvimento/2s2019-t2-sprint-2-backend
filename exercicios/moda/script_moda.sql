@@ -1,0 +1,27 @@
+CREATE DATABASE Modas;
+
+USE Modas;
+
+CREATE TABLE Marcas(
+	MarcaId INT PRIMARY KEY NOT NULL IDENTITY,
+	Nome VARCHAR(255) NOT NULL UNIQUE
+);
+
+CREATE TABLE Tamanhos(
+	TamanhoId INT PRIMARY KEY NOT NULL IDENTITY,
+	Tamanho VARCHAR(3) NOT NULL UNIQUE
+);
+
+CREATE TABLE Camisetas(
+	CamisetaId INT PRIMARY KEY NOT NULL IDENTITY,
+	Descricao VARCHAR(255) NOT NULL,
+	MarcaId INT FOREIGN KEY REFERENCES Marcas(MarcaId)
+);
+
+CREATE TABLE TamanhosCamisetas(	
+	TamanhoId INT FOREIGN KEY REFERENCES Tamanhos(TamanhoId),
+	CamisetaId INT FOREIGN KEY REFERENCES Camisetas(CamisetaId)
+);
+
+INSERT INTO Tamanhos VALUES ('P'),('M'),('G'),('GG'),('XP'),('XM'),('XG'),('XGG')
+SELECT * FROM Tamanhos T ORDER BY T.TamanhoId ASC
