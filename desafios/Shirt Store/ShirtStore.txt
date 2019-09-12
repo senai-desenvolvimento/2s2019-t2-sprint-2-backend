@@ -26,7 +26,8 @@ Somente os Gerentes da empresa podem cadastrar uma camiseta.
 Ex. O usuário gerente@adidas.com da empresa Adidas adiciona as camisetas da marca.
 
 Qualquer pessoa, mesmo que não esteja com o token, pode visualizar as empresas e quais camisetas possuem (mas não conseguem visualizar os tamanhos e nem as cores).
-E as empresas somente podem visualizar suas próprias camisetas. Os usuários das empresas não podem visualizar as camisetas de outras marcas.
+E as empresas somente podem visualizar suas próprias camisetas. 
+Os usuários das empresas não podem visualizar as camisetas de outras marcas.
 
 Não pode ter uma empresa cadastrada no sistema sem usuários;
 
@@ -39,6 +40,7 @@ Disponibilizar os endpoints para as ações listadas abaixo:
 	- Login;
 	- CRUD de Marcas;
 	- CRUD de Camisetas;
+	- CRUD de Usuários;
 	- Listar todas a marcas disponíveis
 	- Listar todos o tamanhos disponíveis
 	- Listar todas as camisetas e sua respectiva marcas                                                                                                                                  
@@ -48,3 +50,6 @@ Disponibilizar os endpoints para as ações listadas abaixo:
 Desafios Extras
 	- Qualquer usuário logado pode retirar um peça do estoque;
 	- Somente um Gerente pode adicionar peças no estoque;
+	- Ao passar uma camiseta, listar suas cores, seus tamanhos e quantas peças há no estoque.
+	- Ao passar um tamanho, listar todas as camisetas junto com todas as suas cores e quantidade em estoque.
+	- Ao passar uma cor, listar todas as camisetas junto com todos seus tamanhos e quantidade em estoque.
